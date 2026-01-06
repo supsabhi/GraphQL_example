@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="test.bin.jetpackcompose_template.TemplateAPP"
+        android:name="graphQL_example.bin.graphQL_example.GraphQLAPP"
 
         android:allowBackup="true"
         android:usesCleartextTraffic="true"
@@ -19,9 +19,8 @@
         android:theme="@style/Theme.JetPackCompose_template"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="graphQL_example.bin.graphQL_example.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.JetPackCompose_template">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
