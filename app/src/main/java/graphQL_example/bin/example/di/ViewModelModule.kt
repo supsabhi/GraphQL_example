@@ -1,0 +1,14 @@
+package graphQL_example.bin.example.di
+
+import graphQL_example.bin.example.graphQL_example.bin.graphQL_example.presentation.Home.HomeViewModel
+import org.koin.androidx.viewmodel.dsl.viewModel
+import org.koin.dsl.module
+
+
+val homeModule = module {
+    viewModel {
+        HomeViewModel(
+            get(),get(),get()
+        )
+    }
+}

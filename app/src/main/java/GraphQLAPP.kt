@@ -1,10 +1,10 @@
-package graphQL_example.bin.graphQL_example
+package graphQL_example.bin.example
 
 import android.app.Application
-import  graphQL_example.bin.graphQL_example.di.appModule
-import graphQL_example.bin.graphQL_example.di.homeModule
-import  graphQL_example.bin.graphQL_example.di.networkModule
-import  graphQL_example.bin.graphQL_example.di.repoModule
+import  graphQL_example.bin.example.di.appModule
+import graphQL_example.bin.example.di.homeModule
+import  graphQL_example.bin.example.di.networkModule
+import  graphQL_example.bin.example.di.repoModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
