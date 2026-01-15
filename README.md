@@ -58,7 +58,15 @@ Repository
    ↓
 GraphQL API (Ktor Client)
 ```
+---
 
+## 📖 Related Article
+
+For a detailed, beginner-friendly breakdown check out the full article on Medium:
+
+👉 [**Mastering GraphQL with Ktor: A Modern Networking Guide for Android**](https://medium.com/@supsabhi/mastering-graphql-with-ktor-a-modern-networking-guide-for-android-028f388836ed)
+
+---
 ### Key Design Decisions
 
 * GraphQL responses are handled via `GraphQLResponse<T>`
